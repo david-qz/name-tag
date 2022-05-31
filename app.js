@@ -4,6 +4,8 @@ const initialName = 'Bob'; // If changing this make sure to also change the HTML
 // grab DOM elements
 const nameInput = document.getElementById('name-input');
 const nameDisplay = document.getElementById('name-display');
+const colorInput = document.getElementById('color-input');
+const nameTagDisplay = document.getElementById('name-tag');
 
 // set event listeners
     // get info from user input
@@ -15,4 +17,9 @@ nameInput.addEventListener('input', () =>{
         name = initialName;
     }
     nameDisplay.textContent = name;
+});
+
+colorInput.addEventListener('input', () => {
+    const color = colorInput.value;
+    nameTagDisplay.style.backgroundColor = color;
 });
