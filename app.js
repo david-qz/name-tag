@@ -6,5 +6,6 @@ const nameInput = document.getElementById('name-input');
     // use user input to update state
     // update DOM to reflect the new state
 nameInput.addEventListener('input', () =>{
-    console.log('name-input changed');
+    const name = nameInput.value;
+    console.log(name);
 });
