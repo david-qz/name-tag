@@ -1,11 +1,14 @@
 // constants
-const initialName = 'Bob'; // If changing this make sure to also change the HTML
+const initialName = 'Bob';
 
 // grab DOM elements
 const nameInput = document.getElementById('name-input');
 const nameDisplay = document.getElementById('name-display');
 const colorInput = document.getElementById('color-input');
 const nameTagDisplay = document.getElementById('name-tag');
+
+// set the display's initial content
+nameDisplay.textContent = initialName;
 
 // set event listeners
     // get info from user input
