@@ -1,4 +1,27 @@
-## The Golden Rule:
+# Name Tags
+
+## Planning
+
+### HTML Outline
+
+The app needs two sections: one for the inputs and another for the name tag display. The inputs section should contain a text input box with an associated label. The name tag itself can be a paragraph element with its inner content divided into spans and styled.
+
+![Rough sketch of page layout](wireframe.png)
+
+### State
+
+- The app has two pieces of state: the content in the input and the content in the name display.
+- The above two pieces of state should sync whenever the input content changes.
+
+### Events
+
+We will use the `input` event to detect when the name input element changes.
+
+---
+
+## The prompt
+
+### The Golden Rule
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
 
@@ -6,7 +29,7 @@
 1. Validate each line of code before moving forward
 1. Keep it Simple Simon (KISS)
 
-## Making a plan
+### Making a plan
 
 1. Make a drawing of your app. **Simple "wireframes"**
 1. Once you have a drawing, **name the HTML elements** you'll need to realize your vision**
