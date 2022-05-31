@@ -8,6 +8,5 @@ const nameDisplay = document.getElementById('name-display');
     // update DOM to reflect the new state
 nameInput.addEventListener('input', () =>{
     const name = nameInput.value;
-    console.log(name);
     nameDisplay.textContent = name;
 });
