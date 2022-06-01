@@ -30,8 +30,10 @@ footer {
 }
 
 #name-tag {
+    display: inline-block;
     background: crimson;
-    width: 350px;
+    min-width: 350px;
+    max-width: 100%;
     text-align: center;
     border-radius: 15px;
     padding-top: 10px;
@@ -59,7 +61,9 @@ span {
 }
 
 #name-display {
+    overflow: auto;
     font-size: 3rem;
+    padding: 0 20px;
     background: white;
     font-family: 'Gloria Hallelujah', cursive;
 }
