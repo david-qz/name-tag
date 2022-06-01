@@ -6,7 +6,7 @@
 
 The app needs two sections: one for the inputs and another for the name tag display. The inputs section should contain a text input box with an associated label. The name tag itself can be a paragraph element with its inner content divided into spans and styled.
 
-![Rough sketch of page layout](wireframe.png)
+![Rough sketch of page layout](assets/wireframe.png)
 
 ### State
 
